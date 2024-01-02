@@ -8,7 +8,7 @@ interface B
     void disp(); // public + abstract 
         
 }
-class xyz4 implements A,B
+class xyz3 implements A,B
 {
     public void show() //if we don't write public it will take default 
                        //and if default is small with compare than public.
@@ -23,7 +23,7 @@ class xyz4 implements A,B
 
     public static void main(String []args)
     {
-        xyz4 Obj=new xyz4();
+        xyz3 Obj=new xyz3();
         Obj.show(); Obj.disp();
     }
 }
