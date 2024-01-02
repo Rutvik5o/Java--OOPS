@@ -55,7 +55,7 @@ class D implements A
     }
 }
 
-class xyz5
+class xyz4
 {
     public static void main(String []args)
     {
